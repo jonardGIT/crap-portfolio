@@ -12,6 +12,7 @@ body, html {
     width: 1000px;
     margin: auto;
     position: relative;
+    overflow: hidden;
 }
 
 ul {
@@ -104,10 +105,11 @@ ul.list {
     background-image: url(./joel-muniz-lUK16p_JtCM-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
-
+    overflow: hidden;
     color: white;
     font-size: 2rem; 
-    width: 100vw;
+    margin: auto;
+    width: 100%;
 }
 
 .goat {
